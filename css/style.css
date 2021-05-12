@@ -18,7 +18,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
-ul {padding-left: 40px;list-style-type: square;}
+ul {padding-left: 40px;list-style-type:}
 ol {padding-left: 40px;padding-bottom: 15px;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 a:hover img {opacity: 0.6}
