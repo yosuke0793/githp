@@ -8,7 +8,7 @@
 ---------------------------------------------------------------------------*/
 body {
 	margin: 0px;
-	padding: 0px;
+	padding: 30px;
 	color: black;	/*全体の文字色*/
 	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 14px;	/*文字サイズ*/
@@ -25,21 +25,25 @@ a:hover img {opacity: 0.6}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
+.headline{
+	margin-top: 15px;
+}
+
 /*h1見出しタグの設定
 ---------------------------------------------------------------------------*/
 h1 {
 	font-size: 20pt;
 	clear: both;
 	color: black;			/*文字色*/
-	padding: 5px 20px;		/*上下、左右への余白*/
 }
 
 /*h2見出しタグの設定
 ---------------------------------------------------------------------------*/
 h2 {
 	clear: both;
+	width: fit-content;
 	margin-bottom: 15px;
-	color: #fff;			/*文字色*/
+	color: white;			/*文字色*/
 	padding: 5px 20px;		/*上下、左右への余白*/
 	background: #391183;	/*背景色*/
 	border-radius: 4px;		/*角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が不要ならこの１行削除。*/
@@ -50,9 +54,25 @@ h2 {
 h3 {
 	clear: both;
 	margin-bottom: 15px;
+	width: fit-content;
 	padding: 3px 20px;			/*上下、左右への余白*/
 	border-radius: 4px;			/*角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が不要ならこの１行削除。*/
 	border: 2px solid #391183;	/*枠線の幅、線種、色*/
+}
+
+/*h4見出しタグの設定
+---------------------------------------------------------------------------*/
+h4 {
+	clear: both;
+}
+
+/*h3見出しタグの設定
+---------------------------------------------------------------------------*/
+h5 {
+	clear: both;
+	margin-bottom: 15px;
+	font-size: 10pt;
+	color: black;
 }
 
 /*段落タグ設定
@@ -175,6 +195,7 @@ footer .pr {
 
 dl{
 	width: 100%;
+	padding-left: 25px;
 }
 
 dt{
