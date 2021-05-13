@@ -7,8 +7,9 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body {
-	margin: 0px;
-	padding: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 0px;
 	color: black;	/*全体の文字色*/
 	font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	font-size: 14px;	/*文字サイズ*/
@@ -17,6 +18,7 @@ body {
 	background: #fff url(../images/bg.jpg) no-repeat center center/cover fixed;	/*背景指定*/
 	-webkit-text-size-adjust: none;
 }
+
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
 ul {padding-left: 40px;}
 ol {padding-left: 40px;padding-bottom: 15px;}
@@ -27,6 +29,11 @@ iframe {width: 100%;}
 
 .headline{
 	margin-top: 15px;
+}
+
+.margin-lr{
+	padding-left: 30 px;
+	padding-right: 30 px;
 }
 
 /*h1見出しタグの設定
@@ -179,22 +186,6 @@ footer .pr {
 
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
-/*ブロック全体の設定*/
-/* #new dl {
-	padding-left: 20px;
-	margin-bottom: 15px;
-} */
-/*日付設定*/
-/* #new dt {
-	float: left;
-	width: 8em;
-	color: #391183;
-} */
-/*記事設定*/
-/* #new dd {
-	padding-left: 8em;
-} */
-
 dl{
 	width: 100%;
 	padding-left: 25px;
@@ -214,11 +205,6 @@ dd{
 	margin-bottom:7px;
 }
 
-/* dl::after {
-	content: '';
-	display: block;
-	clear: both;
-} */
 /*テーブル
 ---------------------------------------------------------------------------*/
 /*tテーブルブロック設定*/
@@ -249,8 +235,6 @@ dd{
 .mb15,.mb1em {margin-bottom: 15px;}
 .color1 {color:#d50f26;}
 .pr {font-size: 10px;}
-
-
 
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
