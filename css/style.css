@@ -34,7 +34,6 @@ iframe {width: 100%;}
 h1 {
 	font-size: 20pt;
 	clear: both;
-	color: black;			/*文字色*/
 }
 
 /*h2見出しタグの設定
@@ -112,7 +111,10 @@ a:hover {
 /*headerブロック*/
 header {
 	text-align: center;	/*ヘッダーブロックの内容をセンタリングする設定*/
-	color: black;
+	color: white;
+	background-color: #391183;
+	margin-bottom: 20px;
+	padding-top: 10px;
 }
 /*ロゴ画像設定*/
 #logo  img {
